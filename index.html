@@ -315,11 +315,22 @@ footer{
 </nav>
 
 <!-- HERO -->
+<!-- HERO -->
 <section class="hero">
 <div>
 <div class="hero-title">Kaviya <span>Alagu</span></div>
-<div class="role">UI/UX Designer</div>
-<div class="animated-text" id="textLoop">Designer</div>
+
+<!-- UPDATED -->
+<div class="role">UI/UX Designer | Frontend Enthusiast</div>
+
+<!-- UPDATED -->
+<div class="animated-text">
+  Designed with usability in mind & built using HTML and CSS
+</div>
+
+<!-- (textLoop kept, just updated words in JS) -->
+<div class="animated-text" id="textLoop"></div>
+
 <button class="hero-btn" id="exploreBtn">Explore Work ↓</button>
 </div>
 </section>
@@ -456,7 +467,7 @@ glow.style.top=e.clientY+"px";
 });
 
 /* TEXT LOOP */
-const words=["Designer","Creator","Thinker"];
+const words=["UI/UX Designer","Frontend Learner","Problem Solver"];
 let i=0;
 setInterval(()=>{
 document.getElementById("textLoop").innerText=words[i];
